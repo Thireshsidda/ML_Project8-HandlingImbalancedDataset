@@ -17,7 +17,7 @@ Pandas is used for data manipulation and exploration to visualize the class dist
 
 2)Oversampling: This technique increases the number of samples from the minority class to create a more balanced distribution. RandomOverSampler from imblearn is used to duplicate existing minority class samples.
 
-3) SMOTETomek (Synthetic Minority Oversampling Technique): This technique combines oversampling with the Tomek Links method to create synthetic minority class samples based on existing data while avoiding overfitting.
+3)SMOTETomek (Synthetic Minority Oversampling Technique): This technique combines oversampling with the Tomek Links method to create synthetic minority class samples based on existing data while avoiding overfitting.
 
 ### 4. Model Training and Evaluation
 
@@ -45,7 +45,9 @@ Visualize feature importance to gain insights into how the model identifies frau
 ### 8. References
 
 Scikit-learn documentation: https://scikit-learn.org/
+
 Imbalanced-learn library: https://imbalanced-learn.org/
+
 Handling Imbalanced Data Sets: https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
 
 ### Note:
